@@ -1,0 +1,5 @@
+requests
+pillow
+flask[all]
+idna
+unicorn
