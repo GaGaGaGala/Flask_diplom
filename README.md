@@ -1,9 +1,10 @@
 python -m pip install -r requirements.txt
 
-### [Flask] python app.py
-### [FastAPI] python -m uvicorn app.main:app
-### [Django] python manage.py runserver
-
+```
+[Flask] python app.py
+[FastAPI] python -m uvicorn app.main:app
+[Django] python manage.py runserver
+```
 
 ```
 fast_book_json/
