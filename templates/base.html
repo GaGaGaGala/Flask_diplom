@@ -2,8 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{% block title %}{% endblock %}</title>
     <!-- Bootstrap стили -->
@@ -25,21 +24,16 @@
                 aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end"
-             id="navbarNav">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Главная</a>
+                    <a class="nav-link" href="/">Главная</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Обо мне</a>
+                    <a class="nav-link" href="/about">Обо мне</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa-solid fa-address-card" style="color: #74C0FC;"></i> Контакты</a>
-                </li>
-                <!-- Использование иконок Font Awesome -->
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa-solid fa-gears" style="color: #74C0FC;"></i> Настройки</a>
+                    <a class="nav-link" href="/contacts"><i class="fa-solid fa-address-card" style="color: #74C0FC;"></i> Контакты</a>
                 </li>
             </ul>
         </div>
@@ -52,5 +46,8 @@
     {% endblock %}
 </div>
 
+<!-- Bootstrap скрипты -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
