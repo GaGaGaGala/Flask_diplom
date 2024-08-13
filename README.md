@@ -2,12 +2,11 @@ python -m pip install -r requirements.txt
 
 ```
 [Flask] python app.py
-[FastAPI] python -m uvicorn app.main:app
-[Django] python manage.py runserver
+
 ```
 
 ```
-fast_book_json/
+flask_book_json/
 │
 ├── instance/
 │   └── books.db
@@ -22,11 +21,9 @@ fast_book_json/
 │       └── style.css
 │
 ├── app.py
-├── create_db_books.py
-├── models.py
-├── views.py
-├── manage.py             
-├── books.json         # Файл с данными о книгах
+├── books.json          # Файл с данными о книгах
+├── create_db_books.py             
+├── models.py        
 └── README.md          # Файл с описанием проекта
 ```
 

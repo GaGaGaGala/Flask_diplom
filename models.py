@@ -1,6 +1,8 @@
 from flask_sqlalchemy import SQLAlchemy
 
-db = SQLAlchemy()
+db = SQLAlchemy() # объект для связи с базой данных
+
+# создание класса, объект класса -книга
 
 class Book(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -10,5 +12,3 @@ class Book(db.Model):
     description = db.Column(db.String(500), nullable=False)
     image_url = db.Column(db.String(200), nullable=True)  # Поле для хранения URL изображения
 
-    def __repr__(self):
-        return '<Book %r>' % self.title
